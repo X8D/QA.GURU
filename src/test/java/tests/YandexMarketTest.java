@@ -24,7 +24,7 @@ package tests;
         @Test
         @Description("Positive test with itemY")
         void successfulSearch() {
-                Configuration.headless = true;
+ //               Configuration.headless = true;
 
         YandexMarketPage marketPage = new YandexMarketPage();
         open(urlY); //переходим на ЯндексМаркет
