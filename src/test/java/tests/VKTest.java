@@ -24,7 +24,7 @@ public class VKTest {
     @Test
     @Description("Positive test editing")
     void VKEdit() {
-        Configuration.headless = true;
+ //       Configuration.headless = true;
 
         open(VKurl);
         $("#index_email").setValue(VKlogin); // вбиваем логин-почту
